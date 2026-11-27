@@ -1,0 +1,24 @@
+{
+  "name": "kisilab-complete-webapp",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "KisiLab - AI-powered question generator for teachers",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve-dist.mjs",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": { "node": ">=20" },
+  "browserDependencies": {
+    "dexie": "https://esm.sh/dexie@4.0.11?bundle",
+    "docx": "https://esm.sh/docx@9.5.1?bundle",
+    "jspdf": "https://esm.sh/jspdf@2.5.2?bundle",
+    "jszip": "https://esm.sh/jszip@3.10.1?bundle",
+    "mammoth": "https://esm.sh/mammoth@1.9.0?bundle",
+    "pdfjs-dist": "https://esm.sh/pdfjs-dist@4.10.38/build/pdf.mjs?bundle",
+    "xlsx": "https://esm.sh/xlsx@0.18.5?bundle",
+    "tesseract.js": "https://esm.sh/tesseract.js@6.0.1?bundle"
+  }
+}
